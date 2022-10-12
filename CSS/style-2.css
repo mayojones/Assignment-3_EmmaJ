@@ -1,0 +1,298 @@
+
+* {
+    margin: 10px;
+    margin-top: 20px;
+
+}
+
+header {    
+    background-color: white;
+    position: relative;
+    z-index: 10;
+
+}
+
+h1 {
+    margin-left: 20px;
+    max-width: 600px;
+
+    font-family: pedestria-mvb,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+    color: #2F2925;
+
+}
+
+a:hover {
+ color: #D5A849;
+
+}
+
+h2 {
+    margin-left: 20px;
+    margin-bottom: -3%;
+    margin-top: -1%;
+
+    font-family: pedestria-mvb,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.column {
+    float: left;
+
+}
+
+#wrapper {
+    width: 660px;
+    height: 630px;
+    overflow: hidden;
+    
+
+}
+
+#painting {
+
+    max-width: fit-content;
+    margin: -5%;
+
+}
+
+
+.triangle-up-L {
+    width: 0;
+    height: 0;
+    border-top: 200px solid #A5AAB3;
+    border-right: 200px solid transparent;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes example {
+    from {
+        border-top: 200px solid #A5AAB3;
+        }
+        
+        to {
+        border-top: 200px solid #2F2925;
+        }
+  }
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 400px solid transparent;
+    border-right: 400px solid #2F2925;
+    border-bottom: 400px solid transparent;
+    overflow: hidden;
+
+    margin-left: -15%;
+    margin-top: -82.7%;
+    
+    animation-name: another;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes another {
+    from {
+        border-right: 400px solid #2F2925;
+        }
+        
+        to {
+        border-right: 400px solid #D5A849;
+        }
+  }
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-left: 150px solid #D5A849;
+    border-bottom: 150px solid transparent;
+
+    margin-top: -82.5%;
+
+    animation-name: again;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes again {
+    from {
+        border-left: 150px solid #D5A849;
+
+        }
+        
+        to {
+        border-left: 150px solid white;
+
+
+        }
+  }
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-bottom: 150px solid #D6CDC1;
+    border-right: 150px solid transparent;
+
+    margin-top: -39.1%;
+
+    animation-name: simple;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes simple {
+    from {
+        border-bottom: 150px solid #D6CDC1;
+
+        }
+        
+        to {
+        border-bottom: 150px solid #A5AAB3;
+
+        }
+  }
+
+.triangle-down-L {
+    width: 0;
+    height: 0;
+    border-bottom: 290px solid #A5AAB3;
+    border-right: 290px solid transparent;
+
+    margin-top: -73%;
+    margin-left: 82.5%;
+    
+    animation-name: maybe;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes maybe {
+    from {
+        border-bottom: 290px solid #A5AAB3;
+
+        }
+        
+        to {
+        border-bottom: 290px solid #D6CDC1;
+
+        }
+  }
+
+.triangle-right-2 {
+    width: 0;
+    height: 0;
+    border-top: 240px solid transparent;
+    border-left: 240px solid #D6CDC1;
+    border-bottom: 240px solid transparent;
+
+    margin-top: -187%;
+    margin-left: 82.5%;
+    overflow: hidden;
+
+    animation-name: why;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes why {
+    from {
+        border-left: 240px solid #D6CDC1;
+
+        }
+        
+        to {
+        border-left: 240px solid white;
+
+        }
+  }
+
+.triangle-left-2 {
+    width: 0;
+    height: 0;
+    border-top: 370px solid transparent;
+    border-right: 370px solid #A91F23;
+    border-bottom: 370px solid transparent;
+    overflow: hidden;
+
+    margin-top: -93%;
+    margin-left: 82.5%;
+
+    animation-name: did;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes did {
+    from {
+        border-right: 370px solid #A91F23;
+
+        }
+        
+        to {
+        border-right: 370px solid #2F2925;
+        
+        }
+  }
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 131px solid transparent;
+    border-top: 131px solid #706B6E;
+    border-right: 131px solid transparent;
+
+    margin-top: -183%;
+    margin-left: 108.9%;
+    
+    animation-name: i;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes i {
+    from {
+        border-top: 131px solid #706B6E;
+
+        }
+        
+        to {
+        border-top: 131px solid #A91F23;
+        
+        }
+  }
